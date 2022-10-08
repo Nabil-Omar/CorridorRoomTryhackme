@@ -2,7 +2,7 @@
 
 Today I'll be taking you through the corridor room (http://tryhackme.com/room/Corridor)
 As always, we start with an nmap scan
- `nmap -sC -sV 10.10.162.207` 
+ `nmap -sC -sV <IP ADDRESS>` 
 We see that port 80 is open and nmap tells us that its running a python server.
 On visting the website....we are greeted by just a single page with an image.
 Viewing the page's  source code,we find out that there are seemingly more images...which appear to be hashed.
